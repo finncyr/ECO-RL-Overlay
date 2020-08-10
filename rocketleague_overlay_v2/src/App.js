@@ -1,25 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import background from './RL_screen.jpg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div class="Overlay">
+            <img src={background} alt="Ein Hintergrund" />
+
+            <div class="team-left">
+                <h2 class="team-name">ECO E-Zpörts</h2>
+                <div class="points-left">
+                    <div id="left-1"></div>
+                    <div id="left-2"></div>
+                    <div id="left-3"></div>
+                </div>   
+            </div>
+
+            <div class="team-right">
+                <h2 class="team-name">Hamburger Haie</h2>
+                <div class="points-right">
+                    <div id="right-1"></div>
+                    <div id="right-2"></div>
+                    <div id="right-3"></div>
+                </div>
+            </div>
+        </div>
   );
 }
 
