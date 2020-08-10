@@ -55,7 +55,7 @@
     left: 10%;
     top: 28%;
 
-    background-color: white;
+    background-color: #888;
 }
 
 #left-2 {
@@ -76,7 +76,7 @@
     left: 70%;
     top: 28%;
 
-    background-color: white;    
+    background-color: #fff;    
 }
 
 
@@ -85,7 +85,7 @@
     background-color: rgba(236, 133, 74, 0.7);
     width: 450px;
     height: 65px;
-    left: 1126px;
+    left: 1128px;
     top: 10px;
 
     box-shadow: 0px 0px 3px 1px #737996;
@@ -126,7 +126,7 @@
     left: 10%;
     top: 28%;
 
-    background-color: white;
+    background-color: #fff;
 }
 
 #right-2 {
@@ -136,7 +136,7 @@
     left: 40%;
     top: 28%;
 
-    background-color: white;    
+    background-color: #888;    
 }
 
 
@@ -147,5 +147,5 @@
     left: 70%;
     top: 28%;
 
-    background-color: white;    
+    background-color: #888;    
 }
