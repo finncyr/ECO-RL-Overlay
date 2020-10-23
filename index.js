@@ -78,7 +78,7 @@ $("#right-3").click(function() {
 $(".team-name").editable();
 
 $( "html" ).keypress(function( event ) {
-    if ( event.which == 97 ) {
+    if ( event.which == 48 ) {
         event.preventDefault();
         var txt1 = $('#team-l').html();
         var txt2 = $('#team-r').html();
