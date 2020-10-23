@@ -4,7 +4,7 @@
 
 double-click on Team-Names to edit them
 
-Press <kbd>a</kbd> to switch Names
+Press <kbd>0</kbd> to switch Names
 
 Press <kbd>1</kbd> - <kbd>3</kbd> to activate/deactivate left-side points
 
