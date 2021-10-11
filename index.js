@@ -92,9 +92,9 @@ $("#right-4").click(function() {
         $("#right-4").css("background-color", "#EF233C");
         right3 = 1;
     }
-});
+}); 
 
-//Editable
+//Editablee
 
 $(".team-name").editable();
 
