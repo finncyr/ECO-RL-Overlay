@@ -39,6 +39,17 @@ $("#left-3").click(function() {
     }
 });
 
+$("#left-4").click(function() {
+    if(left3){
+        $("#left-4").css("background-color", "#888");
+        left3 = 0;
+    }
+    else{
+        $("#left-4").css("background-color", "#fff");
+        left3 = 1;
+    }
+});
+
 $("#right-1").click(function() {
     if(right1){
         $("#right-1").css("background-color", "#888");
@@ -72,6 +83,16 @@ $("#right-3").click(function() {
     }
 });
 
+$("#right-4").click(function() {
+    if(right3){
+        $("#right-4").css("background-color", "#888");
+        right3 = 0;
+    }
+    else{
+        $("#right-4").css("background-color", "#EF233C");
+        right3 = 1;
+    }
+});
 
 //Editable
 
