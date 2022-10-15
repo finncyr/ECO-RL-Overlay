@@ -18,14 +18,13 @@
 
 .team-left {
     position: absolute;
-    background-color: rgba(239, 35, 60, 0.7);
+    background-color: rgba(239, 35, 60);
     width: 450px;
     height: 65px;
     left: 340px;
     top: 12px;
     border-radius: 5px;
     border-style: initial;
-    box-shadow: 0px 0px 3px 1px #737996;
 }
 
 .team-left .team-name {
@@ -43,7 +42,7 @@
     position: absolute;
     left: 264px;
     top: 64px;
-    background: rgba(239, 35, 60, 0.7);
+    background: rgba(239, 35, 60);
 
     border-radius: 2px;
     /* Skew */
@@ -87,7 +86,7 @@
 
 .team-right {
     position: absolute;
-    background-color: rgba(243, 242, 244, 0.7);
+    background-color: rgba(243, 242, 244);
     width: 450px;
     height: 65px;
     left: 1128px;
@@ -104,7 +103,7 @@
     position: absolute;
     left: 6px;
     top: 64px;
-    background: rgba(243, 242, 244, 0.7);
+    background: rgba(243, 242, 244);
     
     border-radius: 2px;
     /* Skew */
